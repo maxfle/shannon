@@ -42,19 +42,39 @@ body {
     background-color: red;
 }
 
+.carousel {
+  width: 800px;
+  height: 600px;
+  background: rgb(32, 37, 43);
+}
+
 .carousel-inner img{
   margin: auto;
-  padding: 0 25%;
+  padding: 25px 25%;
   width: auto;
   height: auto;
   max-height: 600px;
   max-width: 100%;
   position: relative;
-  background: rgb(32, 37, 43);
+  
 }
 
-/* #myCarousel img {
-width: auto;
-height: 225px;
-max-height: 225px;
-} */
+.smallPic {
+  padding-top: 125px;
+}
+
+.mediumPic {
+  padding-top: 15px;
+}
+
+.moveLittleRight{
+  padding-left: 15px;
+}
+
+.moveLittleRight{
+  padding-left: 25px;
+}
+
+.moveRight {
+  padding-left: 50px;
+}
